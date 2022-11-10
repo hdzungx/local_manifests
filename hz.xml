@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="hdzungx-github" 
+                fetch="https://github.com/hdzungx"
+                clone-depth="1" />
+
+        <remote name="hdzungx-gitlab"
+                fetch="https://gitlab.com/hdzungx"
+                revision="14" 
+                clone-depth="1" />
+
+        <!-- Device Trees -->
+        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="hdzungx-github" revision="hz" />
+
+        <!-- Vendor Trees-->
+        <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="hdzungx-gitlab" />
+
+        <!-- Kernel-->
+        <project path="kernel/xiaomi/munch" name="projects-nexus/nexus_kernel_xiaomi_sm8250" remote="github" revision="picel-sched" />
+
+        <!-- Firmware-->
+        <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="hdzungx-gitlab" />
+
+        <!-- Miui Camera-->
+        <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="hdzungx-gitlab" />
+</manifest>
