@@ -21,7 +21,7 @@
         <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="hdzungx-gitlab" />
 
         <!-- Kernel-->
-        <project path="kernel/xiaomi/munch" name="projects-nexus/nexus_kernel_xiaomi_sm8250" remote="github" revision="sched-4" />
+        <project path="kernel/xiaomi/munch" name="Rohail33/Realking_kernel_sm8250" remote="github" revision="munch" />
 
         <!-- Firmware-->
         <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="hdzungx-gitlab" />
