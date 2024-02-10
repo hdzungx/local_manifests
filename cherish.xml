@@ -14,6 +14,10 @@
                 revision="14" 
                 clone-depth="1" />
         
+        <remote  name="evo-bb"
+                fetch="https://bitbucket.org/evo-x/"
+                revision="refs/heads/udc" />
+
         <!-- Device Trees -->
         <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="hdzungx-github" revision="cherish14" />
 
@@ -31,4 +35,6 @@
 
         <!-- Viper-->
         <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" remote="github" revision="v4a" />
+        <remove-project path="vendor/gms" name="vendor_gms" />
+        <project path="vendor/gms" name="vendor_gms" groups="vendor" remote="evo-bb" clone-depth="1" />
 </manifest>
