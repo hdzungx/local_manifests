@@ -15,7 +15,7 @@
                 clone-depth="1" />
         
         <!-- Device Trees -->
-        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="hdzungx-github" revision="cherish14" />
+        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="hdzungx-github" revision="superior" />
 
         <!-- Vendor Trees-->
         <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="hdzungx-gitlab" />
